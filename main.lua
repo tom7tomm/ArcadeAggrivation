@@ -19,4 +19,5 @@ end
 
 function love.draw()
 	jim.drawAll()
+	world.drawAll()
 end
