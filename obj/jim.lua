@@ -19,7 +19,6 @@ function jim.loadImgs()
 end
 
 function jim.draw()
-	world.backgroundDraw()
 	love.graphics.setColor(255, 255, 255)
 	love.graphics.draw(jim.imgBody, jim.x, jim.y)
 end

@@ -15,9 +15,10 @@ function love.update(dt)
 	   end
 	end
 	jim.updateAll(dt)
+	world.updateAll(dt)
 end
 
 function love.draw()
-	jim.drawAll()
 	world.drawAll()
+	jim.drawAll()
 end
