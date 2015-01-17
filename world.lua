@@ -5,7 +5,8 @@ function world.load()
 	world.Sy1 = 100
 	world.Sx2 = love.graphics.getWidth() - 100
 	world.Sy2 = love.graphics.getHeight() - 100
-	world.mainWorld = love.physics.newWorld(world.Sx1, world.Sy1, world.Sx2, world.Sy2, 100, 0, true)
+	world.gravity = 25
+	world.mainWorld = love.physics.newWorld(world.Sx1, world.Sy1, world.Sx2, world.Sy2, 0, world.gravity, true)
 	world.BGimg = love.graphics.newImage("img/world/BGimg.png")
 end
 
